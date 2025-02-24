@@ -1,0 +1,14 @@
+@startuml Coworking_Booking_Sprint2
+left to right direction
+actor User
+actor Admin
+
+usecase "Make a payment" as UC_Pay
+usecase "View booking history" as UC_History
+usecase "Manage users" as UC_ManageUsers
+
+User --> UC_Pay
+User --> UC_History
+
+Admin --> UC_ManageUsers
+@enduml
