@@ -1,5 +1,5 @@
  
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=35&duration=4&pause=20&color=6D26BFFF&center=true&vCenter=true&width=999&lines=Project+Brief:+Coworking+Space+Booking+System" alt="coworking space booking system" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=35&duration=4&pause=20&color=6D26BFFF&center=true&vCenter=true&width=999&lines=Coworking+Space+Booking+System" alt="coworking space booking system" />
 
 **Context:**  
 In today’s dynamic professional environment, coworking spaces have become an essential resource for freelancers, startups, and established companies looking for flexible workspace solutions. This project is a comprehensive web application built using Laravel on the backend and VueJS on the frontend. It is designed to enable users to browse, search, and book coworking spaces, while providing administrators with tools to manage spaces, bookings, and users effectively.
