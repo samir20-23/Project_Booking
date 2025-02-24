@@ -1,0 +1,68 @@
+classDiagram
+    %% User Model
+    class User {
+      +int id
+      +string name
+      +string email
+      +string password
+      +string phone
+      +DateTime created_at
+      +DateTime updated_at
+      +register()
+      +login()
+      +updateProfile()
+      +getBookings()
+    }
+
+    %% Coworking Space Model
+    class CoworkingSpace {
+      +int id
+      +string name
+      +string location
+      +string description
+      +string image
+      +float price_per_hour
+      +string space_type
+      +int capacity
+      +boolean is_available
+      +DateTime created_at
+      +DateTime updated_at
+      +getAvailableSpaces()
+      +getDetails()
+    }
+
+    %% Booking Model
+    class Booking {
+      +int id
+      +int user_id
+      +int coworking_space_id
+      +DateTime start_time
+      +DateTime end_time
+      +int participants
+      +float total_price
+      +string status
+      +DateTime created_at
+      +DateTime updated_at
+      +createBooking()
+      +cancelBooking()
+      +getBookingDetails()
+    }
+
+    %% Payment Model
+    class Payment {
+      +int id
+      +int booking_id
+      +int user_id
+      +float amount
+      +string payment_status
+      +string payment_method
+      +DateTime created_at
+      +DateTime updated_at
+      +processPayment()
+      +refundPayment()
+    }
+
+    %% Relationships
+    User "1" -- "many" Booking : makes
+    CoworkingSpace "1" -- "many" Booking : is booked in
+    Booking "1" -- "1" Payment : has
