@@ -1,5 +1,5 @@
  
-## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=35&duration=4&pause=20&color=6D26BFFF&center=true&vCenter=true&width=999&lines=Project+Brief:+Coworking+Space+Booking+System" alt="coworking space booking system" />
+## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=35&duration=4&pause=20&color=6D26BFFF&center=true&vCenter=true&width=999&lines=Coworking+Space+Booking+System" alt="coworking space booking system" />
 
  ## clone :
  ```bash
@@ -26,7 +26,7 @@ The application involves three primary types of users:
 1. **Authentication & Registration:**
    - **Account Creation:** New users can register for an account.
    - **Login:** Existing users can log in to access personalized services.
-
+ 
 2. **Coworking Space Browsing:**
    - **Space Listings:** Display available coworking spaces with essential details such as name, location, image, description, and pricing.
    - **Search & Filter:** Provide search functionality and filters (e.g., by date, location, space type) to help users find the ideal workspace.
