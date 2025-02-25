@@ -12,7 +12,7 @@ php artisan serve
 go to http://127.0.0.1:8000
 ```
 
-**Context:**  
+**Context::** 
 In today’s dynamic professional environment, coworking spaces have become an essential resource for freelancers, startups, and established companies looking for flexible workspace solutions. This project is a comprehensive web application built using Laravel on the backend and VueJS on the frontend. It is designed to enable users to browse, search, and book coworking spaces, while providing administrators with tools to manage spaces, bookings, and users effectively.
 
 **System Overview:**  
