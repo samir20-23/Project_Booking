@@ -1,6 +1,17 @@
  
 ## <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=35&duration=4&pause=20&color=6D26BFFF&center=true&vCenter=true&width=999&lines=Project+Brief:+Coworking+Space+Booking+System" alt="coworking space booking system" />
 
+ ## clone :
+ ```bash
+git clone https://github.com/samir20-23/Project_Booking.git
+cd Project_Booking/Main_App 
+npm install 
+npm run dev
+composer install
+php artisan serve
+go to http://127.0.0.1:8000
+```
+
 **Context:**  
 In today’s dynamic professional environment, coworking spaces have become an essential resource for freelancers, startups, and established companies looking for flexible workspace solutions. This project is a comprehensive web application built using Laravel on the backend and VueJS on the frontend. It is designed to enable users to browse, search, and book coworking spaces, while providing administrators with tools to manage spaces, bookings, and users effectively.
 
@@ -61,4 +72,3 @@ The application involves three primary types of users:
 - **UI/UX Development:** Develop a responsive and modern interface using Tailwind CSS.
 - **Integration Skills:** Understand and implement secure payment processing with third-party services (Stripe).
 - **Project Management:** Document and manage a full-scale project from inception to delivery.
- 
